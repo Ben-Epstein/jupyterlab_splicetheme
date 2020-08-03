@@ -1,6 +1,6 @@
 {
   "name": "@bepstein/jupyterlab_splicetheme",
-  "version": "0.1.9",
+  "version": "0.1.13",
   "description": "Splice Jupyterlab theme",
   "author": "Ben Epstein <bepstein@splicemachine.com>",
   "keywords": [

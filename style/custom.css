@@ -1,19 +1,13 @@
-body {
-    background-color: red !important;
-  }
 
-.rendered_html h1, .rendered_html h2, .rendered_html h3, .rendered_html h4, .rendered_html h5
-{
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h1, .jp-MarkdownOutput.jp-RenderedHTMLCommon h2, .jp-MarkdownOutput.jp-RenderedHTMLCommon h3, .jp-MarkdownOutput.jp-RenderedHTMLCommon h4, .jp-MarkdownOutput.jp-RenderedHTMLCommon h5 {
 	line-height: 110%;
 	font-weight: 600;
 	font-style: normal;
 	margin: 2px, 0, 4px, 0;
-	padding: 0;
+	padding: 0;	
 }
 
-
-.rendered_html h1
-{
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h1 {
 	font-size: 26px;
 	margin-top: 0px;
 	margin-bottom: 8px;
@@ -21,29 +15,29 @@ body {
 	color: #f7a800;
 }
 
-.rendered_html h2
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h2
 {
 	font-size: 22px;
-	margin-top: 44px;
+	margin-top: 22px;
 	color: #3390db;
 }
 
-.rendered_html h3
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h3
 {
 	font-size: 20px;
-	margin-top: 40px;
+	margin-top: 20;
 	color: #f7a800;
 }
 
-.rendered_html h4
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h4
 {
 	font-size: 18px;
 	font-style: italic;
-	margin-top: 30px;
+	margin-top: 20;
 	color: #174e89;
 }
 
-.rendered_html h5
+.jp-MarkdownOutput.jp-RenderedHTMLCommon h5
 {
 	font-size: 16px;
 	font-weight: bold;
@@ -51,7 +45,7 @@ body {
 	color: #606060;
 }
 
-.rendered_html blockquote
+.jp-MarkdownOutput.jp-RenderedHTMLCommon blockquote
 {
 	margin-left: 40px;
 	font-family: inherit;
@@ -60,51 +54,50 @@ body {
 	color: inherit;
 }
 
-.rendered_html img.splice {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.splice {
 	margin: 20px 0 20px 100px;
 }
 
-.rendered_html img.fitwidth {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.fitwidth {
 	margin: 20px 20px 20px 20px;
 	max-width: 90%;
 }
 
-.rendered_html img.fithalfwidth {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.fithalfwidth {
 	margin: 20px 20px 20px 20px;
 	max-width: 50%;
 }
 
-.rendered_html img.fit3qtrwidth {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.fit3qtrwidth {
 	margin: 20px 20px 20px 20px;
 	max-width: 75%;
 
 }
 
-.rendered_html img.inline {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.inline {
 	margin: 0;
 	display: inline;
-	width: 20px;
 }
 
-.rendered_html img.small {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.small {
 	margin: 20px 0 20px 100px;
 	width: 300px;
 }
 
-.rendered_html img.tiny {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon img.tiny {
 	margin: 20px 0 20px 100px;
 	max-width: 200px;
 	max-height: 50px;
 }
 
-.rendered_html p {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p {
 	font-size: 14px;
 	line-height: 135%;
 	color: #4a4f54;
 	font-family: 'Open Sans', sans-serif;
 }
 
-.rendered_html p.noteIcon {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteIcon {
 	background-color: #F6F6F8;
 	background-repeat: no-repeat;
 	background-image: url("https://doc.splicemachine.com/zeppelin/images/zepNoteIcon.png");
@@ -119,15 +112,15 @@ body {
 	min-height: 48px;
 }
 
-.rendered_html p.noteIcon:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteIcon:before {
 	content: "";
 	color: #F39939;
 	font-weight: 600;
 }
 
-.rendered_html p.noteImportant,
-.rendered_html p.noteQuestion,
-.rendered_html p.noteHint {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteImportant,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteQuestion,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteHint {
 	background-color: #FFFFFF;
 	color: #4a4f54;
 	margin: 20px 60px 20px 60px;
@@ -138,32 +131,32 @@ body {
 	max-width: 75%;
 }
 
-.rendered_html p.noteImportant:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteImportant:before {
 	content: "Important: ";
 	color: red;
 	font-weight: bold;
 	margin-left: -90px;
 }
 
-.rendered_html p.noteImportant {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteImportant {
 	margin-left: 120px;
 }
 
 
-.rendered_html p.noteQuestion:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteQuestion:before {
 	content: "Question: ";
 	font-weight: bold;
 	color: #174e89;
 }
 
-.rendered_html p.noteHint:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteHint:before {
 	content: "Hint: ";
 	font-weight: bold;
 	color: #174e89;
 }
 
-.rendered_html p.noteNote,
-.rendered_html p.notePlain {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteNote,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.notePlain {
 	background-color: #F6F6F8;
 	background-repeat: no-repeat;
 	background-image: none;
@@ -178,19 +171,19 @@ body {
 	min-height: 0;
 }
 
-.rendered_html p.noteNote:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon p.noteNote:before {
 	content: "NOTE: ";
 	color: #F39939;
 	font-weight: 600;
 }
 
-.rendered_html li {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon li {
 	margin-top: 10px;
 }
 
-.rendered_html ul,
-.rendered_html ol,
-.rendered_html li {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon ul,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon ol,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon li {
     color: #4a4f54;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -198,23 +191,23 @@ body {
 }
 
 
-.rendered_html ul.italic,
-.rendered_html ol.italic,
-.rendered_html li.italic {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon ul.italic,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon ol.italic,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon li.italic {
 	font-style: italic;
 }
 
-.rendered_html span.ConsoleLink {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon span.ConsoleLink {
 	font-weight: 600;
 	color: #3ba3d8;
 	text-transform: none;
 }
 
-.rendered_html span.ConsoleLink a:link {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon span.ConsoleLink a:link {
 	color: #3390db;
 }
 
-.rendered_html table {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table {
     text-align: left;
 	margin-left:24px;
 	padding-left:0;
@@ -223,15 +216,15 @@ body {
 	font-size: 14px;
 }
 
-.rendered_html th, .rendered_html td {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon th, .jp-MarkdownOutput.jp-RenderedHTMLCommon td {
 	text-align:left;
 	font-size: 14px;
 	line-height: 135%;
 }
 
-.rendered_html table.splicezep,
-.rendered_html table.splicezepNoBorder,
-.rendered_html table.splicezepOddEven
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven
 {
 	table-layout: auto;
 	min-width: 25%;
@@ -248,39 +241,39 @@ body {
 }
 
 
-.rendered_html table.splicezepOddEven {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven {
 	border: 1px solid #F39939;
 }
 
-.rendered_html table.splicezepNoBorder
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder
 {
 	border: none;
 }
 
-.rendered_html table.splicezep tr {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep tr {
 
 }
 
-.rendered_html table.splicezepNoBorder tr {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder tr {
 	border: none;
 	background-color: transparent;
 }
 
-.rendered_html table.splicezepOddEven tr:nth-child(even) {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven tr:nth-child(even) {
 	border: 1px solid #F39939;
 	background-color: #F8F8F8;
 
 }
 
-.rendered_html table.splicezepOddEven tr:nth-child(odd) {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven tr:nth-child(odd) {
 	border: 1px solid #F39939;
 	background-color: #FEFEFE;
 }
 
-.rendered_html table.splicezep td,
-.rendered_html table.splicezep td.CodeFont,
-.rendered_html table.splicezep td.BoldFont,
-.rendered_html table.splicezep td.ItalicFont {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.CodeFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.BoldFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.ItalicFont {
 	border: 1px solid #8d9090;
 	padding: 8px;
 	text-align: left;
@@ -289,10 +282,10 @@ body {
 	overflow: auto;
 }
 
-.rendered_html table.splicezepOddEven td,
-.rendered_html table.splicezepOddEven td.CodeFont,
-.rendered_html table.splicezepOddEven td.BoldFont,
-.rendered_html table.splicezepOddEven td.ItalicFont {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.CodeFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.BoldFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.ItalicFont {
 	border: 1px solid #8d9090;
 	padding: 12px 8px 12px 8px;
 	text-align: left;
@@ -301,10 +294,10 @@ body {
 	overflow: auto;
 }
 
-.rendered_html table.splicezepNoBorder td,
-.rendered_html table.splicezepNoBorder td.CodeFont,
-.rendered_html table.splicezepNoBorder td.BoldFont,
-.rendered_html table.splicezepNoBorder td.ItalicFont {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.CodeFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.BoldFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.ItalicFont {
 	border: none;
 	padding: 8px;
 	text-align: left;
@@ -313,48 +306,48 @@ body {
 	overflow: auto;
 }
 
-.rendered_html table.splicezep td.CodeFont,
-.rendered_html table.splicezepNoBorder td.CodeFont,
-.rendered_html table.splicezepOddEven td.CodeFont
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.CodeFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.CodeFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.CodeFont
 {
 	font-family: "Courier";
 }
 
-.rendered_html table.splicezep td.ItalicFont,
-.rendered_html table.splicezepNoBorder td.ItalicFont,
-.rendered_html table.splicezepOddEven td.ItalicFont
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.ItalicFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.ItalicFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.ItalicFont
 
 {
 	font-style: italic;
 }
 
-.rendered_html table.splicezep td.BoldFont,
-.rendered_html table.splicezepNoBorder td.BoldFont,
-.rendered_html table.splicezepOddEven td.BoldFont
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td.BoldFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td.BoldFont,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td.BoldFont
 {
 	font-weight: bold;
 }
 
-.rendered_html table.splicezep td p:first-child,
-.rendered_html table.splicezepNoBorder td p:first-child,
-.rendered_html table.splicezepOddEven td p:first-child
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td p:first-child,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td p:first-child,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td p:first-child
 {
 	margin-top: 0;
 }
 
-.rendered_html table.splicezep td > ul > li:first-of-type,
-.rendered_html table.splicezep td > ol > li:first-of-type,
-.rendered_html table.splicezepNoBorder td > ul > li:first-of-type,
-.rendered_html table.splicezepNoBorder td > ol > li:first-of-type,
-.rendered_html table.splicezepOddEven td > ul > li:first-of-type,
-.rendered_html table.splicezepOddEven td > ol > li:first-of-type
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td > ul > li:first-of-type,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep td > ol > li:first-of-type,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td > ul > li:first-of-type,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder td > ol > li:first-of-type,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td > ul > li:first-of-type,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven td > ol > li:first-of-type
 {
 	margin-top: 0;
 }
 
-.rendered_html table.splicezep th,
-.rendered_html table.splicezepNoBorder th,
-.rendered_html table.splicezepOddEven th {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep th,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder th,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven th {
 	border: 1px solid #8d9090;
 	padding: 8px;
 	text-align: left;
@@ -366,18 +359,18 @@ body {
 	background-color: #dcdcdc;
 }
 
-.rendered_html table.splicezepOddEven th {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepOddEven th {
 	border: 1px solid #8d9090;
 }
 
-.rendered_html table.splicezepNoBorder th {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder th {
 	border: none;
 	background-color: transparent;
 }
 
-.rendered_html table.splicezep img,
-.rendered_html table.splicezepNoBorder img,
-.rendered_html table.splizezepOddEven img
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezep img,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splicezepNoBorder img,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon table.splizezepOddEven img
 {
 	border: none;
 	width: auto;
@@ -385,7 +378,7 @@ body {
 	margin: 0;
 }
 
-.rendered_html div.noteIcon {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteIcon {
 	background-color: #F6F6F8;
 	background-repeat: no-repeat;
 	background-image: url("https://doc.splicemachine.com/zeppelin/images/zepNoteIcon.png");
@@ -399,15 +392,15 @@ body {
 	max-width: 75%;
 	min-height: 48px;
 }
-.rendered_html div.noteIcon:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteIcon:before {
 	content: "";
 	color: #F39939;
 	font-weight: 600;
 }
 
-.rendered_html div.noteImportant,
-.rendered_html div.noteQuestion,
-.rendered_html div.noteHint {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteImportant,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteQuestion,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteHint {
 	background-color: #FFFFFF;
 	color: #4a4f54;
 	margin: 20px 60px 20px 60px;
@@ -418,33 +411,33 @@ body {
 	max-width: 75%;
 }
 
-.rendered_html div.noteImportant:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteImportant:before {
 	content: "Important: ";
 	color: red;
 	font-weight: bold;
 	margin-left: -90px;
 }
 
-.rendered_html div.noteImportant {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteImportant {
 	margin-left: 120px;
 }
 
-.rendered_html div.noteQuestion:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteQuestion:before {
 	content: "Question: ";
 	font-weight: bold;
 	color: #174e89;
 }
 
 
-.rendered_html div.noteHint:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteHint:before {
 	content: "Hint: ";
 	font-weight: bold;
 	color: #174e89;
 }
 
 
-.rendered_html div.noteNote,
-.rendered_html div.notePlain {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteNote,
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.notePlain {
 	background-color: #F6F6F8;
 	background-repeat: no-repeat;
 	background-image: none;
@@ -458,23 +451,23 @@ body {
 	max-width: 75%;
 	min-height: 0;
 }
-.rendered_html div.noteNote:before {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon div.noteNote:before {
 	content: "NOTE: ";
 	color: #F39939;
 	font-weight: 600;
 }
 
-.rendered_html code {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon code {
 	color: #4a4f54;
 	font-size: inherit;
 }
 
-.rendered_html pre {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon pre {
 	font-size: 14px;
 	line-height: 135%;
 }
 
-.rendered_html code {
+.jp-MarkdownOutput.jp-RenderedHTMLCommon code {
 	font-size: 13px;
 }
 
